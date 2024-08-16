@@ -1,6 +1,6 @@
 import { describe, expect, test } from 'vitest'
-import { doStuff } from '$lib/index'
-import { bible } from '../bible'
+import { doStuff } from '$lib'
+import { bible } from './bible'
 
 describe('Test stuff', () => {
 	test('should count', () => {
