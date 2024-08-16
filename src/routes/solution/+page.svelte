@@ -12,6 +12,7 @@
 	}
 </script>
 
+<h1>Find words in text</h1>
 <form method="POST" on:submit|preventDefault={submit}>
 	<label for="text">Find words in text</label>
 	<textarea id="text" name="text"/>
@@ -23,7 +24,7 @@
 </form>
 
 {#if result}
-	<div role="alert" aria-labelledby="result">
+	<div role="alert" aria-live="polite" aria-labelledby="result">
 		<h2 id="result">Result</h2>
 		<pre>{JSON.stringify(result, null, 2)}</pre>
 	</div>
