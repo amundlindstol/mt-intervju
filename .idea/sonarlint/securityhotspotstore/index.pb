@@ -102,3 +102,13 @@ w
 G.idea/sonarlint/issuestore/b/6/b69d8408b6c89ae66e712f0e6af68848291cfdfb,8/8/8847071e50d71764ee5bf926cafbfb53bccb8adf
 w
 G.idea/sonarlint/issuestore/1/2/12453d06e6e35287172e482940b954ba12dc25a2,d/f/dfbf84a2eea3678b81a240c7c9ca9ba9cd133e3e
+H
+src/lib/fastWordCount.ts,3/f/3f1a90e31e03ad6af75f4a9edbc1120f5fcc50fe
+?
+src/app.test.ts,e/1/e175d16a6902f704a0c3f1ddcbcaa8c07e7a5c88
+N
+src/routes/solution/+server.ts,e/b/eb1572101bf1b8d964de3def2bb41d9d7a274f8d
+P
+ src/routes/solution/+page.svelte,3/4/34480c45222ec91775d374a4137cfd2890cbd99b
+<
+src/bible.ts,3/f/3f97bf83ecf23d019f44a444ef53095ca8013467
