@@ -1,6 +1,7 @@
 import { describe, expect, test } from 'vitest'
 import { doStuff } from '$lib'
 import { bible } from './bible'
+import { fastWordCount } from '$lib/fastWordCount'
 
 describe('Test stuff', () => {
 	test('should count', () => {
@@ -26,6 +27,13 @@ describe('Test stuff', () => {
 	test.skip('gotta go fast', () => {
 		const start = Date.now()
 		const res = doStuff(bible, 1)
+		const end = Date.now()
+		console.log(`Took ${end - start}ms`)
+	})
+
+	test.skip('gotta go faster', () => {
+		const start = Date.now()
+		const res = fastWordCount(bible, 1)
 		const end = Date.now()
 		console.log(`Took ${end - start}ms`)
 	})
